@@ -11,3 +11,7 @@ stacks:
   - name: openended
     description-block:
       start: 'Open stack:'
+  - name: later
+    description-block:
+      start: '<!-- Z:start -->'
+      end: '<!-- Z:end -->'
