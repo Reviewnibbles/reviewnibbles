@@ -1,0 +1,6 @@
+stacks:
+  - name: retest_tool
+    description-block:
+      start: '<!-- Retest stack: start -->'
+      end: '<!-- Retest stack: end -->'
+    order: top-first
