@@ -1,8 +1,0 @@
-stacks:
-  - name: closer
-    description-block:
-      start: 'Stack:'
-    detect: 'Managed by closer'
-    pr-reference: last-ref
-    landing: close
-    merged-notification: 'Landed by closer'
