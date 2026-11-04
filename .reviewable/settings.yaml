@@ -1,4 +1,9 @@
 stacks:
+  - name: myspr
+    description-block:
+      start: '**Stack**:'
+    detect: 'Part of a stack created by [spr]'
+    pr-reference: last-ref
   - name: closer
     description-block:
       start: 'Stack:'
@@ -6,11 +11,3 @@ stacks:
     pr-reference: last-ref
     landing: close
     merged-notification: 'Landed by closer'
-  - name: retarget
-    description-block:
-      start: 'Chain:'
-    detect: 'Managed by retarget'
-    pr-reference: last-ref
-    order: bottom-first
-    landing: retarget-and-close
-    merged-notification: 'Landed by retarget'
